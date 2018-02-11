@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding:0;
   margin:0;
-  background-color:#f4f4f4;
+  background-color: #ffff00;
 }
 /*global */
 .container{
@@ -29,7 +29,7 @@ ul{
 
 .dark{
   padding:15px;
-  background:#35424a;
+  background:#0000ff;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
@@ -37,11 +37,11 @@ ul{
 
 /* Header **/
 header{
-  background:#35424a;
+  background:#000000;
   color:#ffffff;
   padding-top:20px;
   min-height:70px;
-  border-bottom:#e8491d 3px solid;
+  border-bottom:#0000ff 2px solid;
 }
 
 header a{
@@ -77,19 +77,19 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color:#e8491d;
+    color:#ff0000;
     font-weight:bold;
 }
 
 header a:hover{
-    color:#cccccc;
+    color:#ff0000;
     font-weight:bold;
 }
 
 /* Showcase */
 #showcase{
     min-height:400px;
-    background:url('../img/showcase.jpg')no-repeat 0 -650px;
+    background:url('../img/fondo-abstracto-1.png')no-repeat 0 -100px;
     text-align:center;
     color:#ffffff;
 }
@@ -164,7 +164,7 @@ article#main-col{
 ul#services li{
   list-style: none;
   padding:20px;
-  border: #cccccc solid 1px;
+  border:  #0000ff solid 1px;
   margin-bottom:5px;
   background:#e6e6e6;
 }
@@ -173,7 +173,7 @@ footer{
     padding:20px;
     margin-top:20px;
     color:#ffffff;
-    background-color:#e8491d;
+    background-color:#000000;
     text-align: center;
 }
 
